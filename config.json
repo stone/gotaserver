@@ -1,0 +1,5 @@
+{
+  "FirmwareDir": "firmwares",
+  "FirmwareSuffix": "*.bin",
+  "ServerHostPort": "localhost:8082"
+}
