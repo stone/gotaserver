@@ -4,4 +4,5 @@ steps:
     plugins:
       - docker-compose#v3.0.3:
           run: app
+          workdir: /go/src/github.com/stone/gotaserver
 
