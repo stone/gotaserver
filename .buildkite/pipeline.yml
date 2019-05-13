@@ -2,6 +2,6 @@ steps:
   - name: ":golang:"
     command: make
     plugins:
-      - docker-compose#ab65b07:
+      - docker-compose#v3.0.3:
           run: app
 
