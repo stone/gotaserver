@@ -1,4 +1,6 @@
 steps:
+  - name: ":info:"
+    command: id;pwd;ls -al
   - name: ":golang:"
     command: make
     plugins:
