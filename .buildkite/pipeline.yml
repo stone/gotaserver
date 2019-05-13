@@ -1,6 +1,6 @@
 steps:
   - name: ":golang:"
-    command: "pwd; ls -al; ./scripts/test.sh"
+    command: pwd; ls -al; ./scripts/test.sh
     plugins:
       - docker-compose#v3.0.3:
           run: app
