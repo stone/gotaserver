@@ -1,6 +1,4 @@
-DEPS = $(go list -f '{{range .TestImports}}{{.}} {{end}}' ./...)
-
-all: deps test
+all: deps test build
 
 deps:
 	go get -d -v ./...
