@@ -1,5 +1,6 @@
 app:
   build: .
+  working_dir: /go/src/github.com/stone/gotaserver
   volumes:
     - ./:/go/src/github.com/stone/gotaserver
     - /usr/bin/buildkite-agent:/usr/bin/buildkite-agent
